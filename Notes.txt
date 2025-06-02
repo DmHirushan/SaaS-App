@@ -1,0 +1,12 @@
+usePathname() hook in next.js
+	The usePathname hook in Next.js is used to get the current URL pathname in app router (app/ directory) introduced with Next.js 13+.
+	
+What usePathname Returns :- 
+It returns a string of the current URL path.
+
+For example, if the user is on /about, it returns "/about".
+
+⚠️ Important Notes
+You must mark the component using this hook with 'use client' since it's a client component hook.
+
+Works only with the App Router (app/ directory) — not with Pages Router (pages/ directory).
