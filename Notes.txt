@@ -10,3 +10,5 @@ For example, if the user is on /about, it returns "/about".
 You must mark the component using this hook with 'use client' since it's a client component hook.
 
 Works only with the App Router (app/ directory) — not with Pages Router (pages/ directory).
+
+Superbase Database password - 48w9kxYjkDGELQ1i
