@@ -30,7 +30,7 @@ export const configureAssistant = (voice: string, style: string) => {
       voiceId: voiceId,
       stability: 0.4,
       similarityBoost: 0.8,
-      speed: 1.2,
+      speed: 1.0,
       style: 0.5,
       useSpeakerBoost: true,
     },
